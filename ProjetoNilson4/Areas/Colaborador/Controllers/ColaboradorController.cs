@@ -36,6 +36,6 @@ namespace ProjetoNilson4.Areas.Colaborador.Controllers
             }
         }
     }
-    
+
 }
 

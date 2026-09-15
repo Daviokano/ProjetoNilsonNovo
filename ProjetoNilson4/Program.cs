@@ -1,5 +1,6 @@
 using ProjetoNilson4.Repository.Contract;
 using ProjetoNilson4.Repository;
+using ProjetoNilson4.Libraries.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -41,15 +42,15 @@ app.UseAuthorization();
 
 app.MapStaticAssets();
 
-
 app.UseCookiePolicy();
 
 app.UseSession();
 
+app.UseMiddleware<ValidateAntiForgeryTokenMiddleware>();
+
 app.MapControllerRoute(
     name: "areas",
-    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
-    );
+    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
 
 app.MapControllerRoute(
     name: "default",

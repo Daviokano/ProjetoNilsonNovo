@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using ProjetoNilson4.Libraries.Filtro;
 using ProjetoNilson4.Libraries.Login;
 using ProjetoNilson4.Models;
 using ProjetoNilson4.Repository.Contract;
@@ -52,7 +53,7 @@ namespace ProjetoNilson4.Controllers
             if(clienteDB.Email != null && clienteDB.Senha != null)
             {
                 _loginCliente.Login(clienteDB);
-                return new RedirectResult(Url.Action(nameof(PainelCliente)));
+                    return RedirectToAction(nameof(PainelCliente));
             }
             else
             {
@@ -65,6 +66,8 @@ namespace ProjetoNilson4.Controllers
         }
 
         
+
+        [ClienteAutorizacao]
 
         public IActionResult PainelCliente()
         {
@@ -84,12 +87,18 @@ namespace ProjetoNilson4.Controllers
             return View();
         }
 
-        public IActionResult LogoutCliente()
+		[ClienteAutorizacao]
+
+		public IActionResult LogoutCliente()
         {
             _loginCliente.Logout();
             return RedirectToAction(nameof(Index));
         }
-        
+        public IActionResult LogoutColaborador()
+        {
+            _loginCliente.Logout();
+            return RedirectToAction(nameof(Index));
+        }
         
     }
 }

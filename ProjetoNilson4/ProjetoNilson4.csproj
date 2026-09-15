@@ -8,14 +8,29 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="10.0.2" />
-    <PackageReference Include="MySql.Data" Version="9.7.0" />
+    <PackageReference Include="MySql.Data" Version="26.7.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
     <PackageReference Include="X.PagedList.Mvc.Core" Version="10.5.9" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="wwwroot\img\" />
-    <Folder Include="wwwroot\resources\lib\" />
+    <Folder Include="wwwroot\resources\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\lib\bootstrap-ecommerce-uikit\.DS_Store" />
+    <None Include="wwwroot\lib\bootstrap-ecommerce-uikit\css\.DS_Store" />
+    <None Include="wwwroot\lib\bootstrap-ecommerce-uikit\ui-design\.DS_Store" />
+    <None Include="wwwroot\lib\bootstrap-ecommerce-uikit\ui-design\icons\.DS_Store" />
+    <None Include="wwwroot\lib\bootstrap-ecommerce-uikit\ui-design\icons\32x32-transparent\.DS_Store" />
+    <None Include="wwwroot\lib\bootstrap-ecommerce-uikit\ui-design\icons\64x64-transparent\.DS_Store" />
+    <None Include="wwwroot\lib\bootstrap-ecommerce-uikit\ui-design\icons\64x64-white\.DS_Store" />
+    <None Include="wwwroot\lib\bootstrap-ecommerce-uikit\ui-design\icons\svg\.DS_Store" />
+    <None Include="wwwroot\lib\bootstrap-ecommerce-uikit\ui-design\shots\.DS_Store" />
+    <None Include="wwwroot\lib\bootstrap-ecommerce-uikit\ui-ecommerce\fonts\fontawesome\.DS_Store" />
+    <None Include="wwwroot\lib\bootstrap-ecommerce-uikit\ui-ecommerce\sass\.DS_Store" />
+    <None Include="wwwroot\lib\bootstrap-ecommerce-uikit\ui-ecommerce\sass\ui-assets\helpers\.DS_Store" />
   </ItemGroup>
 
 </Project>
