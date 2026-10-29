@@ -9,9 +9,13 @@
       "ProjetoNilson4/1.0.0": {
         "dependencies": {
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "10.0.2",
-          "MySql.Data": "26.7.0",
+          "MySql.Data": "26.10.0",
           "Newtonsoft.Json": "13.0.4",
-          "X.PagedList.Mvc.Core": "10.5.9"
+          "NuGet.Packaging": "7.9.0",
+          "NuGet.Protocol": "7.9.0",
+          "Swashbuckle.AspNetCore": "10.3.1",
+          "System.Security.Cryptography.Pkcs": "10.0.14",
+          "X.PagedList.Mvc.Core": "10.6.0"
         },
         "runtime": {
           "ProjetoNilson4.dll": {}
@@ -1121,7 +1125,7 @@
           "Microsoft.Extensions.DependencyModel": "10.0.2",
           "Mono.TextTemplating": "3.0.0",
           "Newtonsoft.Json": "13.0.4",
-          "NuGet.Packaging": "6.12.1",
+          "NuGet.Packaging": "7.9.0",
           "NuGet.ProjectModel": "6.12.1",
           "System.Security.Cryptography.ProtectedData": "10.0.8"
         },
@@ -1197,6 +1201,14 @@
           }
         }
       },
+      "Microsoft.OpenApi/2.7.5": {
+        "runtime": {
+          "lib/net8.0/Microsoft.OpenApi.dll": {
+            "assemblyVersion": "2.7.5.0",
+            "fileVersion": "2.7.5.0"
+          }
+        }
+      },
       "Microsoft.VisualStudio.SolutionPersistence/1.0.52": {
         "runtime": {
           "lib/net8.0/Microsoft.VisualStudio.SolutionPersistence.dll": {
@@ -1224,7 +1236,7 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore": "10.0.2",
           "Mono.TextTemplating": "3.0.0",
           "Newtonsoft.Json": "13.0.4",
-          "NuGet.Packaging": "6.12.1",
+          "NuGet.Packaging": "7.9.0",
           "NuGet.ProjectModel": "6.12.1",
           "System.Security.Cryptography.ProtectedData": "10.0.8"
         },
@@ -1251,7 +1263,7 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Templating": "10.0.2",
           "Mono.TextTemplating": "3.0.0",
           "Newtonsoft.Json": "13.0.4",
-          "NuGet.Packaging": "6.12.1",
+          "NuGet.Packaging": "7.9.0",
           "NuGet.ProjectModel": "6.12.1",
           "System.Security.Cryptography.ProtectedData": "10.0.8"
         },
@@ -1282,7 +1294,7 @@
           "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": "10.0.2",
           "Mono.TextTemplating": "3.0.0",
           "Newtonsoft.Json": "13.0.4",
-          "NuGet.Packaging": "6.12.1",
+          "NuGet.Packaging": "7.9.0",
           "NuGet.ProjectModel": "6.12.1",
           "System.Security.Cryptography.ProtectedData": "10.0.8"
         },
@@ -1313,7 +1325,7 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Core": "10.0.2",
           "Mono.TextTemplating": "3.0.0",
           "Newtonsoft.Json": "13.0.4",
-          "NuGet.Packaging": "6.12.1",
+          "NuGet.Packaging": "7.9.0",
           "NuGet.ProjectModel": "6.12.1",
           "System.Security.Cryptography.ProtectedData": "10.0.8"
         },
@@ -1340,7 +1352,7 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Utils": "10.0.2",
           "Mono.TextTemplating": "3.0.0",
           "Newtonsoft.Json": "13.0.4",
-          "NuGet.Packaging": "6.12.1",
+          "NuGet.Packaging": "7.9.0",
           "NuGet.ProjectModel": "6.12.1",
           "System.Security.Cryptography.ProtectedData": "10.0.8"
         },
@@ -1365,7 +1377,7 @@
           "Microsoft.Extensions.DependencyModel": "10.0.2",
           "Mono.TextTemplating": "3.0.0",
           "Newtonsoft.Json": "13.0.4",
-          "NuGet.Packaging": "6.12.1",
+          "NuGet.Packaging": "7.9.0",
           "NuGet.ProjectModel": "6.12.1",
           "System.Security.Cryptography.ProtectedData": "10.0.8"
         },
@@ -1396,7 +1408,7 @@
           "Microsoft.VisualStudio.Web.CodeGeneration": "10.0.2",
           "Mono.TextTemplating": "3.0.0",
           "Newtonsoft.Json": "13.0.4",
-          "NuGet.Packaging": "6.12.1",
+          "NuGet.Packaging": "7.9.0",
           "NuGet.ProjectModel": "6.12.1",
           "System.Security.Cryptography.ProtectedData": "10.0.8"
         },
@@ -1418,7 +1430,7 @@
           }
         }
       },
-      "MySql.Data/26.7.0": {
+      "MySql.Data/26.10.0": {
         "dependencies": {
           "BouncyCastle.Cryptography": "2.6.2",
           "Google.Protobuf": "3.35.0",
@@ -1429,8 +1441,8 @@
         },
         "runtime": {
           "lib/net10.0/MySql.Data.dll": {
-            "assemblyVersion": "26.7.0.0",
-            "fileVersion": "26.7.0.0"
+            "assemblyVersion": "26.10.0.0",
+            "fileVersion": "26.10.0.0"
           }
         },
         "runtimeTargets": {
@@ -1469,34 +1481,34 @@
           }
         }
       },
-      "NuGet.Common/6.12.1": {
+      "NuGet.Common/7.9.0": {
         "dependencies": {
-          "NuGet.Frameworks": "6.12.1"
+          "NuGet.Frameworks": "7.9.0"
         },
         "runtime": {
-          "lib/netstandard2.0/NuGet.Common.dll": {
-            "assemblyVersion": "6.12.1.1",
-            "fileVersion": "6.12.1.1"
+          "lib/net8.0/NuGet.Common.dll": {
+            "assemblyVersion": "7.9.0.0",
+            "fileVersion": "7.9.0.83"
           }
         }
       },
-      "NuGet.Configuration/6.12.1": {
+      "NuGet.Configuration/7.9.0": {
         "dependencies": {
-          "NuGet.Common": "6.12.1",
+          "NuGet.Common": "7.9.0",
           "System.Security.Cryptography.ProtectedData": "10.0.8"
         },
         "runtime": {
-          "lib/netstandard2.0/NuGet.Configuration.dll": {
-            "assemblyVersion": "6.12.1.1",
-            "fileVersion": "6.12.1.1"
+          "lib/net8.0/NuGet.Configuration.dll": {
+            "assemblyVersion": "7.9.0.0",
+            "fileVersion": "7.9.0.83"
           }
         }
       },
       "NuGet.DependencyResolver.Core/6.12.1": {
         "dependencies": {
-          "NuGet.Configuration": "6.12.1",
+          "NuGet.Configuration": "7.9.0",
           "NuGet.LibraryModel": "6.12.1",
-          "NuGet.Protocol": "6.12.1"
+          "NuGet.Protocol": "7.9.0"
         },
         "runtime": {
           "lib/net5.0/NuGet.DependencyResolver.Core.dll": {
@@ -1505,18 +1517,18 @@
           }
         }
       },
-      "NuGet.Frameworks/6.12.1": {
+      "NuGet.Frameworks/7.9.0": {
         "runtime": {
-          "lib/netstandard2.0/NuGet.Frameworks.dll": {
-            "assemblyVersion": "6.12.1.1",
-            "fileVersion": "6.12.1.1"
+          "lib/net8.0/NuGet.Frameworks.dll": {
+            "assemblyVersion": "7.9.0.0",
+            "fileVersion": "7.9.0.83"
           }
         }
       },
       "NuGet.LibraryModel/6.12.1": {
         "dependencies": {
-          "NuGet.Common": "6.12.1",
-          "NuGet.Versioning": "6.12.1"
+          "NuGet.Common": "7.9.0",
+          "NuGet.Versioning": "7.9.0"
         },
         "runtime": {
           "lib/netstandard2.0/NuGet.LibraryModel.dll": {
@@ -1525,16 +1537,17 @@
           }
         }
       },
-      "NuGet.Packaging/6.12.1": {
+      "NuGet.Packaging/7.9.0": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.4",
-          "NuGet.Configuration": "6.12.1",
-          "NuGet.Versioning": "6.12.1"
+          "NuGet.Configuration": "7.9.0",
+          "NuGet.Versioning": "7.9.0",
+          "System.Security.Cryptography.Pkcs": "10.0.14"
         },
         "runtime": {
-          "lib/net5.0/NuGet.Packaging.dll": {
-            "assemblyVersion": "6.12.1.1",
-            "fileVersion": "6.12.1.1"
+          "lib/net8.0/NuGet.Packaging.dll": {
+            "assemblyVersion": "7.9.0.0",
+            "fileVersion": "7.9.0.83"
           }
         }
       },
@@ -1549,22 +1562,59 @@
           }
         }
       },
-      "NuGet.Protocol/6.12.1": {
+      "NuGet.Protocol/7.9.0": {
         "dependencies": {
-          "NuGet.Packaging": "6.12.1"
+          "NuGet.Packaging": "7.9.0"
         },
         "runtime": {
-          "lib/net5.0/NuGet.Protocol.dll": {
-            "assemblyVersion": "6.12.1.1",
-            "fileVersion": "6.12.1.1"
+          "lib/net8.0/NuGet.Protocol.dll": {
+            "assemblyVersion": "7.9.0.0",
+            "fileVersion": "7.9.0.83"
           }
         }
       },
-      "NuGet.Versioning/6.12.1": {
+      "NuGet.Versioning/7.9.0": {
         "runtime": {
-          "lib/netstandard2.0/NuGet.Versioning.dll": {
-            "assemblyVersion": "6.12.1.1",
-            "fileVersion": "6.12.1.1"
+          "lib/net8.0/NuGet.Versioning.dll": {
+            "assemblyVersion": "7.9.0.0",
+            "fileVersion": "7.9.0.83"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore/10.3.1": {
+        "dependencies": {
+          "Swashbuckle.AspNetCore.Swagger": "10.3.1",
+          "Swashbuckle.AspNetCore.SwaggerGen": "10.3.1",
+          "Swashbuckle.AspNetCore.SwaggerUI": "10.3.1"
+        }
+      },
+      "Swashbuckle.AspNetCore.Swagger/10.3.1": {
+        "dependencies": {
+          "Microsoft.OpenApi": "2.7.5"
+        },
+        "runtime": {
+          "lib/net10.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "assemblyVersion": "10.3.1.0",
+            "fileVersion": "10.3.1.3201"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerGen/10.3.1": {
+        "dependencies": {
+          "Swashbuckle.AspNetCore.Swagger": "10.3.1"
+        },
+        "runtime": {
+          "lib/net10.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+            "assemblyVersion": "10.3.1.0",
+            "fileVersion": "10.3.1.3201"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerUI/10.3.1": {
+        "runtime": {
+          "lib/net10.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "assemblyVersion": "10.3.1.0",
+            "fileVersion": "10.3.1.3201"
           }
         }
       },
@@ -1655,6 +1705,22 @@
           }
         }
       },
+      "System.Security.Cryptography.Pkcs/10.0.14": {
+        "runtime": {
+          "lib/net10.0/System.Security.Cryptography.Pkcs.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.1426.52326"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net10.0/System.Security.Cryptography.Pkcs.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.1426.52326"
+          }
+        }
+      },
       "System.Security.Cryptography.ProtectedData/10.0.8": {
         "runtime": {
           "lib/net10.0/System.Security.Cryptography.ProtectedData.dll": {
@@ -1690,22 +1756,22 @@
           }
         }
       },
-      "X.PagedList/10.5.9": {
+      "X.PagedList/10.6.0": {
         "runtime": {
-          "lib/net8.0/X.PagedList.dll": {
-            "assemblyVersion": "10.5.9.0",
-            "fileVersion": "10.5.9.0"
+          "lib/net10.0/X.PagedList.dll": {
+            "assemblyVersion": "10.6.0.0",
+            "fileVersion": "10.6.0.0"
           }
         }
       },
-      "X.PagedList.Mvc.Core/10.5.9": {
+      "X.PagedList.Mvc.Core/10.6.0": {
         "dependencies": {
-          "X.PagedList": "10.5.9"
+          "X.PagedList": "10.6.0"
         },
         "runtime": {
-          "lib/net8.0/X.PagedList.Mvc.Core.dll": {
-            "assemblyVersion": "10.5.9.0",
-            "fileVersion": "10.5.9.0"
+          "lib/net10.0/X.PagedList.Mvc.Core.dll": {
+            "assemblyVersion": "10.6.0.0",
+            "fileVersion": "10.6.0.0"
           }
         }
       },
@@ -2257,6 +2323,13 @@
       "path": "microsoft.net.stringtools/17.11.48",
       "hashPath": "microsoft.net.stringtools.17.11.48.nupkg.sha512"
     },
+    "Microsoft.OpenApi/2.7.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0FA67RSnRM4tcBKqiqVu/HPdZ9+QOKbmeRjxRUGTCjPU4C0bmUhd97Dso7Yild5P7nOV6GxJ2xrK0Kv/O9xp0w==",
+      "path": "microsoft.openapi/2.7.5",
+      "hashPath": "microsoft.openapi.2.7.5.nupkg.sha512"
+    },
     "Microsoft.VisualStudio.SolutionPersistence/1.0.52": {
       "type": "package",
       "serviceable": true,
@@ -2320,12 +2393,12 @@
       "path": "mono.texttemplating/3.0.0",
       "hashPath": "mono.texttemplating.3.0.0.nupkg.sha512"
     },
-    "MySql.Data/26.7.0": {
+    "MySql.Data/26.10.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-WXk00B5N6TnuTU0SVRFxMAr2nfLj+4T6gY1NPeDdtj8cwy2Rk5v4GIUK9oSiTSMntEdrKeaYG4eyYPjZun7D7w==",
-      "path": "mysql.data/26.7.0",
-      "hashPath": "mysql.data.26.7.0.nupkg.sha512"
+      "sha512": "sha512-2mhCTH+6kqDvGRlaQ+2GGa+42TPGygcIwXulLwmAMNdTNUhL2dZ/LXMOmMZcJg88CAlBwkBtzOzDrUwq1InkZw==",
+      "path": "mysql.data/26.10.0",
+      "hashPath": "mysql.data.26.10.0.nupkg.sha512"
     },
     "Newtonsoft.Json/13.0.4": {
       "type": "package",
@@ -2334,19 +2407,19 @@
       "path": "newtonsoft.json/13.0.4",
       "hashPath": "newtonsoft.json.13.0.4.nupkg.sha512"
     },
-    "NuGet.Common/6.12.1": {
+    "NuGet.Common/7.9.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-nk8nTdhQl4x2VaAQUvefI7DDYAuBDlE+OZZRffm50Qx5dUAEq8wkc5JIqrN2lTEohObHPI/SXyG2UFdMQkrdyg==",
-      "path": "nuget.common/6.12.1",
-      "hashPath": "nuget.common.6.12.1.nupkg.sha512"
+      "sha512": "sha512-OWFEzHpwvgzSaHYmWzfbyTm6oBOy/BFSFEDk73zM9jiJaxdopYZ/DrqIQogaM3F+ZGTppBJffmzu5adetEI/YA==",
+      "path": "nuget.common/7.9.0",
+      "hashPath": "nuget.common.7.9.0.nupkg.sha512"
     },
-    "NuGet.Configuration/6.12.1": {
+    "NuGet.Configuration/7.9.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-IRwlY1379ZgJ0oEJvjD+lDuOhJ5S1fsU5n/bEC5/i0+N9bo2WIMDAdaQ/qIdyK/gMJ/YWS+++GSX6rN7luqEvg==",
-      "path": "nuget.configuration/6.12.1",
-      "hashPath": "nuget.configuration.6.12.1.nupkg.sha512"
+      "sha512": "sha512-oY9XZp+TWjOmiGmU4R4JWBRY3F4TAVo7tqPr/z7MOsFcEpdYHMryjNSscoLBxUTR3WmFmYgO0Gvu4eRbz6pzOg==",
+      "path": "nuget.configuration/7.9.0",
+      "hashPath": "nuget.configuration.7.9.0.nupkg.sha512"
     },
     "NuGet.DependencyResolver.Core/6.12.1": {
       "type": "package",
@@ -2355,12 +2428,12 @@
       "path": "nuget.dependencyresolver.core/6.12.1",
       "hashPath": "nuget.dependencyresolver.core.6.12.1.nupkg.sha512"
     },
-    "NuGet.Frameworks/6.12.1": {
+    "NuGet.Frameworks/7.9.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-kPaRD5RJC0ByUg+yGX6bDz5XHMI7OYmQwP8kbtef+vZ+csj/VDb5Bwas4ChxwhoAbI8lEvwP5/3aViQPpgNBow==",
-      "path": "nuget.frameworks/6.12.1",
-      "hashPath": "nuget.frameworks.6.12.1.nupkg.sha512"
+      "sha512": "sha512-w2adPmgUafmW9ON1MzDjuHmViN0vtiPV48Dz3OE6px8BiGSqrnWHOjwFEPOEPAZx20J1c7bxp90Hxo9l4xGWtw==",
+      "path": "nuget.frameworks/7.9.0",
+      "hashPath": "nuget.frameworks.7.9.0.nupkg.sha512"
     },
     "NuGet.LibraryModel/6.12.1": {
       "type": "package",
@@ -2369,12 +2442,12 @@
       "path": "nuget.librarymodel/6.12.1",
       "hashPath": "nuget.librarymodel.6.12.1.nupkg.sha512"
     },
-    "NuGet.Packaging/6.12.1": {
+    "NuGet.Packaging/7.9.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-6s5NO3VNX6fIx6GwuWZtIsal9W1xkelYd3Vg2KUAg1zGqnKC3wB5IZlombvVGVGcwyl/A+iDvpUwSvgeDoB3wA==",
-      "path": "nuget.packaging/6.12.1",
-      "hashPath": "nuget.packaging.6.12.1.nupkg.sha512"
+      "sha512": "sha512-Q2jxuud5kJLV0rUzsC02iC5ts8QsQu9UVyMvF8lULY3TwHL/W/PrnQ9bQFvMR7jJkzF1uilRPI1o+7VOtc2XMg==",
+      "path": "nuget.packaging/7.9.0",
+      "hashPath": "nuget.packaging.7.9.0.nupkg.sha512"
     },
     "NuGet.ProjectModel/6.12.1": {
       "type": "package",
@@ -2383,19 +2456,47 @@
       "path": "nuget.projectmodel/6.12.1",
       "hashPath": "nuget.projectmodel.6.12.1.nupkg.sha512"
     },
-    "NuGet.Protocol/6.12.1": {
+    "NuGet.Protocol/7.9.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-VBN7OtG/Y9Rnj1WT3G8X88ZHu5Pq+yzca5Z6OI/FWXcENVAQkUl0ml6Cv8ghOqYyiuvnObGDV9oWLD/bIuVtDw==",
-      "path": "nuget.protocol/6.12.1",
-      "hashPath": "nuget.protocol.6.12.1.nupkg.sha512"
+      "sha512": "sha512-Ts0qPUGJYfFHhlNSSWWrkaSG6++WqS6ry32WmQA7eNdzTc9SumyhDflITcusBYkT6pEQD5BI1UEByakciV3s0A==",
+      "path": "nuget.protocol/7.9.0",
+      "hashPath": "nuget.protocol.7.9.0.nupkg.sha512"
     },
-    "NuGet.Versioning/6.12.1": {
+    "NuGet.Versioning/7.9.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-fJ6rFYANDnohFsdpaY79FvrJxI6murmoOxXz6nZlf819F48+IBKMnAIg3oIBRtZq5y498ObMtKnro5IitvizUg==",
-      "path": "nuget.versioning/6.12.1",
-      "hashPath": "nuget.versioning.6.12.1.nupkg.sha512"
+      "sha512": "sha512-r4sZuVpVqwSBLe4qYDrnpScqdyctlRXg0HSF5OoCGkeBc8b+o8BBYHuI/u1RoWYX78PbieijU13TBt71/Xf3lw==",
+      "path": "nuget.versioning/7.9.0",
+      "hashPath": "nuget.versioning.7.9.0.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore/10.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aCaJQAUxU2SZhN0lXqTfa+6/hJ7RdofjtbWu4oXSmsQ+z7WFJQvAAPrvn5rQI/ly8M/Vu381wtlbA1FUYseHPg==",
+      "path": "swashbuckle.aspnetcore/10.3.1",
+      "hashPath": "swashbuckle.aspnetcore.10.3.1.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.Swagger/10.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZBsi9PZbuy25lUIs+4/V8pmuMqospRAX9zVmxzCm1ZRyKiXjsUL9YCyqdi7ezfDwxKuef6P0fUgVan9sLRcDJA==",
+      "path": "swashbuckle.aspnetcore.swagger/10.3.1",
+      "hashPath": "swashbuckle.aspnetcore.swagger.10.3.1.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.SwaggerGen/10.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DMamYj+m40rOgnGdAp+4iQ+NXIMup2oYVs/zIOZtal0Dar6CXjCF9/SkepEn42TKNO29wAx0xyLfOXj1VjEIXg==",
+      "path": "swashbuckle.aspnetcore.swaggergen/10.3.1",
+      "hashPath": "swashbuckle.aspnetcore.swaggergen.10.3.1.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.SwaggerUI/10.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kXuMIVJBDD6qMwG78VUrKy4x5Ke98HU0Q023Sf2iSBO/x45c5BuByYPAExIs9UeVsjdGGgvLWU5jK8l6MO2Z0Q==",
+      "path": "swashbuckle.aspnetcore.swaggerui/10.3.1",
+      "hashPath": "swashbuckle.aspnetcore.swaggerui.10.3.1.nupkg.sha512"
     },
     "System.CodeDom/6.0.0": {
       "type": "package",
@@ -2460,6 +2561,13 @@
       "path": "system.reflection.metadataloadcontext/8.0.0",
       "hashPath": "system.reflection.metadataloadcontext.8.0.0.nupkg.sha512"
     },
+    "System.Security.Cryptography.Pkcs/10.0.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Wz+IgL2xpg8KJ4i2VWj6uz1PmZNu4Q0Ljlwd73P9Vze5NcOBtctLii3itV0PB2MpOqwqDEGfB6RCdv94A4E5yQ==",
+      "path": "system.security.cryptography.pkcs/10.0.14",
+      "hashPath": "system.security.cryptography.pkcs.10.0.14.nupkg.sha512"
+    },
     "System.Security.Cryptography.ProtectedData/10.0.8": {
       "type": "package",
       "serviceable": true,
@@ -2481,19 +2589,19 @@
       "path": "system.windows.extensions/10.0.8",
       "hashPath": "system.windows.extensions.10.0.8.nupkg.sha512"
     },
-    "X.PagedList/10.5.9": {
+    "X.PagedList/10.6.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-iwrGkIQn/puv4kNe23GVSPtpvKf5bl1aSbhIoWAhrl5LnvEmTwkGftlxSEFlgInVmMx1cb8Q7ivJPqxJtw7TAg==",
-      "path": "x.pagedlist/10.5.9",
-      "hashPath": "x.pagedlist.10.5.9.nupkg.sha512"
+      "sha512": "sha512-qmz+RBQA3swsFZbEfO9XJi7bsInH9vu2S5/o/68BzkoxqiusqDfJY0Y0s2SCVfeK+EQW3RaPFenfKvEaQQa62Q==",
+      "path": "x.pagedlist/10.6.0",
+      "hashPath": "x.pagedlist.10.6.0.nupkg.sha512"
     },
-    "X.PagedList.Mvc.Core/10.5.9": {
+    "X.PagedList.Mvc.Core/10.6.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-LhZwvTyUtn+BYVVc4ERCfZeK+br76nPQy8GTXg4pL9jOazusAUNiGkKBRFL/owOgAdTRKPLtHj+pBfZup7weyg==",
-      "path": "x.pagedlist.mvc.core/10.5.9",
-      "hashPath": "x.pagedlist.mvc.core.10.5.9.nupkg.sha512"
+      "sha512": "sha512-JMXpLkP1UpKdgFowc7s0o0cBTh0R7bS9gJMWWsnqqz5qXQCBEa8J9+D6b+XWnHq9u8hhxVtQuI20EGwMtypUmw==",
+      "path": "x.pagedlist.mvc.core/10.6.0",
+      "hashPath": "x.pagedlist.mvc.core.10.6.0.nupkg.sha512"
     },
     "ZstdSharp.Port/0.8.8": {
       "type": "package",
